@@ -9,27 +9,27 @@ h1 {
   margin: 50px auto 0 auto;
   font-size: 4rem;
   font-family: 'Indie Flower', cursive;
-  color: #484c7f;
+  color: #1f4e5f;
   line-height: 2;
 }
 
 h2 {
   font-family: 'Lato', sans-serif;
   font-size: 1.5rem;
-  color: #484c7f;
+  color: #1f4e5f;
 }
 
 h3 {
-  color: #ac8daf;
+  color: #5a8c8c;
 }
 
 a {
-  color: #ac8daf;
+  color: #5a8c8c;
   margin: 10px 20px;
 }
 
 a:hover {
-  color: #bea5c0;
+  color: #79a8a9;
 }
 
 hr {
@@ -40,7 +40,7 @@ hr {
 }
 
 .top-container {
-  background-color: #ddb6c6;
+  background-color: #aacfd0;
   margin: 0;
   position: relative;
   padding-top: 100px;
@@ -49,12 +49,11 @@ hr {
 .middle-container {
   position: relative;
   padding: 20px;
-  background-color: #f1d4d4;
 
 }
 
 .bottom-container {
-  background-color: #ddb6c6;
+  background-color: #aacfd0;
   margin: 0;
   padding: 20px;
 }
@@ -63,13 +62,14 @@ hr {
   width: 18%;
   position: absolute;
   right: 30%;
-  top: 65%;
+  bottom: 0;
 }
 
 .mountains {
   width: 30%;
   position: relative;
   right: 5%;
+  bottom: 0;
   padding-top: 20px;
 }
 
@@ -128,4 +128,8 @@ hr {
 .contact-message {
   width: 40%;
   margin: 30px auto;
+}
+
+.copyright {
+  font-size: 0.75rem;
 }
