@@ -1,0 +1,131 @@
+body {
+  color: #595959;
+  margin: 0;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-size: 4rem;
+  font-family: 'Indie Flower', cursive;
+  color: #484c7f;
+  line-height: 2;
+}
+
+h2 {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.5rem;
+  color: #484c7f;
+}
+
+h3 {
+  color: #ac8daf;
+}
+
+a {
+  color: #ac8daf;
+  margin: 10px 20px;
+}
+
+a:hover {
+  color: #bea5c0;
+}
+
+hr {
+  border-style: none;
+  border-top: grey dotted 5px;
+  width: 5%;
+  margin: 50px auto;
+}
+
+.top-container {
+  background-color: #ddb6c6;
+  margin: 0;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  position: relative;
+  padding: 20px;
+  background-color: #f1d4d4;
+
+}
+
+.bottom-container {
+  background-color: #ddb6c6;
+  margin: 0;
+  padding: 20px;
+}
+
+.branch {
+  width: 18%;
+  position: absolute;
+  right: 30%;
+  top: 65%;
+}
+
+.mountains {
+  width: 30%;
+  position: relative;
+  right: 5%;
+  padding-top: 20px;
+}
+
+.top-cloud {
+  width: 15%;
+  opacity: 0.50;
+  position: absolute;
+  right: 20%;
+  top: 10%;
+}
+
+.bottom-cloud {
+  width: 15%;
+  opacity: 0.50;
+  position: absolute;
+  left: 15%;
+  bottom: 40%;
+}
+
+.profile-pic {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.web-pic {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.cookie-pic {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.web-designer {
+  font-weight: normal;
+  margin-bottom: 55px;
+}
+
+.profile {
+  width: 70%;
+  margin: 20px auto;
+  line-height: 2;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 30px auto;
+}
